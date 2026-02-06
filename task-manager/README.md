@@ -28,7 +28,7 @@ The application allows users to create, view, edit, update, delete and manage ta
 - **Database:** Laravel Migrations
 - **ORM:** Eloquent
 - **Validation:** Laravel validation rules
-- **Version COntrol:** Git
+- **Version Control:** Git
 
 ---
 
