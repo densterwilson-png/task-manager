@@ -40,7 +40,7 @@ The application allows users to create, view, edit, update, delete and manage ta
 2.Navigate into the project:
 - cd task-manager
 
-3.Install Dependecies:
+3.Install Dependencies:
 - composer install
 
 4. Copy the environment file:
