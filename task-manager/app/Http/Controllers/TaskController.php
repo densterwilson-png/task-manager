@@ -47,7 +47,7 @@ class TaskController extends Controller
                   ->orWhere('status', $request->search);
         }
 
-        $tasks = $query->latest()->pagination(5);
+        $tasks = $query->latest()->paginate(5);
         
         return view('tasks.index',compact('tasks'));
     }
