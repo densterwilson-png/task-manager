@@ -16,6 +16,8 @@ The application allows users to create, view, edit, update, delete and manage ta
 - View task creation date
 - Bootstrap 4 styled interface
 - Form vaidation
+- Search
+- Pagination
 
 ---
 
