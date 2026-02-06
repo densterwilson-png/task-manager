@@ -9,7 +9,7 @@
 <div class="container mt-4">
     <h2>Edit Task</h2>
     
-    @if($error->any())
+    @if($errors->any())
         <div class="alert alert-danger">
             <ul class="mb-0">
                 @foreach($errors->all() as $error)
