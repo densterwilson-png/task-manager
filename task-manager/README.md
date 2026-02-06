@@ -34,13 +34,13 @@ The application allows users to create, view, edit, update, delete and manage ta
 
 ## Setup Instructions
 
-1.Clone the repository:
+1. Clone the repository:
 - git clone https://github.com/densterwilson-png/task-manager.git
 
-2.Navigate into the project:
+2. Navigate into the project:
 - cd task-manager
 
-3.Install Dependencies:
+3. Install Dependencies:
 - composer install
 
 4. Copy the environment file:
