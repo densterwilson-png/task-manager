@@ -37,10 +37,18 @@ class TaskController extends Controller
     {
         return view('tasks.edit', compact('task'));
     }
-
-    public function index()
+ 
+    public function index(Request $request)
     {
-        $tasks = Task::latest()->get();
+        $query = Task::query();
+
+        if ($request->search) {
+            $query->where('title', 'like', '%' . $request->search . '%')
+                  ->orWhere('status', $request->search);
+        }
+
+        $tasks = $query->latest()->pagination(5);
+        
         return view('tasks.index',compact('tasks'));
     }
     

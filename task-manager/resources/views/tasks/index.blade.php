@@ -1,6 +1,22 @@
 <div class="container mt-4">
-    <h2>Task Manager</h2>
+    <h2 class="mb-4">Task Manager</h2>
 
+    <form method="GET" action="{{ route('tasks.index') }}" class="mb-4">
+        <div class="input-group">
+            <input type="text"
+                   name="search"
+                   class="form-control"
+                   placeholder="Search by title or status"
+                   value="{{ request('search') }}">
+            
+            <div class="input-group-append">
+                <button class="btn btn-primary" type="submit">
+                    Search
+                </button> 
+            </div>
+        </div>  
+    </form>     
+                    
     <a href="{{ route('tasks.create') }}" class="btn btn-success mb-3">
         Create Task
     </a>
@@ -64,6 +80,10 @@
         </div>
     </div>
     @endforeach
+
+    <div class="mt-3">
+        {{ $tasks->links() }}
+    </div>    
 
 </div>
 
