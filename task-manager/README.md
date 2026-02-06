@@ -62,9 +62,9 @@ The application allows users to create, view, edit, update, delete and manage ta
 
 ## Assumptions
 
--Authentication was not required
--The application was designed for local development
--No deploymnet was required per instructions.
+- Authentication was not required
+- The application was designed for local development
+- No deploymnet was required per instructions.
 
 ---
 
