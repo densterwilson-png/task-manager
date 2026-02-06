@@ -74,3 +74,5 @@ The application allows users to create, view, edit, update, delete and manage ta
 - Bootstrap status badges
 - Flash success messages
 - Configuration before task deletion
+- Add a search bar to filter tasks by title or status
+- Add pagination for long task lists
