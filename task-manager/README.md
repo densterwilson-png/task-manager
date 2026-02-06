@@ -47,7 +47,7 @@ The application allows users to create, view, edit, update, delete and manage ta
 - cp .env.example .env
 
 5. Generate application key:
--php artisan key:generate 
+- php artisan key:generate 
 
 6. Configure database settings in '.env'
 
